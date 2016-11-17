@@ -3,6 +3,7 @@ FROM alpine:3.4
 RUN set -x && \
     apk add --no-cache \
       openjdk8 \
+      openjdk7 \
       bash
 
 COPY sbt-extras/sbt /bin/sbt
