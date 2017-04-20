@@ -4,6 +4,8 @@ RUN set -x && \
     apk add --no-cache \
       openjdk8 \
       openjdk7 \
+      git \
+      openssh-client \
       bash
 
 COPY sbt-extras/sbt /bin/sbt
