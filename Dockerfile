@@ -6,8 +6,7 @@ RUN set -x && \
       openjdk7 \
       git \
       openssh-client \
-      bash \
-      libsodium
+      bash
 
 COPY sbt-extras/sbt /bin/sbt
 RUN chmod u+x /bin/sbt
